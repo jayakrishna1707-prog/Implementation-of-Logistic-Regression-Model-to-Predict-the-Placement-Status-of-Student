@@ -45,16 +45,23 @@ To write a program to implement the the Logistic Regression Model to Predict the
 ## Program:
 python
 Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
+
 Developed by: SRI JAYAKRISHNA
+
 RegisterNumber: 25009564
 
 # Logistic Regression for Placement Prediction (using Placement_Data.csv)
 
 import pandas as pd
+
 import numpy as np
+
 from sklearn.model_selection import train_test_split
+
 from sklearn.preprocessing import StandardScaler, LabelEncoder
+
 from sklearn.linear_model import LogisticRegression
+
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
 # Step 1: Load dataset
